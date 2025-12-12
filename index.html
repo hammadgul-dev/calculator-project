@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="calculator">
+        <div class="display">
+            <input type="text" placeholder="0" readonly>
+        </div>
+        <div class="buttons-container">
+            <div class="number-keys">
+                <button class="btn" data-value="7">7</button>
+                <button class="btn" data-value="8">8</button>
+                <button class="btn" data-value="9">9</button>
+                <button class="btn" data-value="4">4</button>
+                <button class="btn" data-value="5">5</button>
+                <button class="btn" data-value="6">6</button>
+                <button class="btn" data-value="1">1</button>
+                <button class="btn" data-value="2">2</button>
+                <button class="btn" data-value="3">3</button>
+                <button class="btn" data-value="0">0</button>
+                <button class="btn" data-value=".">.</button>
+                <button class="btn btn-backspace" data-value="btn-backspace">
+                    <i class="fa-solid fa-backspace"></i>
+                </button>
+            </div>
+            <div class="operator-keys">
+                <button class="btn operator" data-value="/"><i class="fa-solid fa-divide"></i></button>
+                <button class="btn operator" data-value="*"><i class="fa-solid fa-xmark"></i></button>
+                <button class="btn operator" data-value="-"><i class="fa-solid fa-minus"></i></button>
+                <button class="btn operator" data-value="+"><i class="fa-solid fa-plus"></i></button>
+            </div>
+        </div>
+        <div class="action-keys">
+            <button class="btn-clear">C</button>
+            <button class="btn-equal">=</button>
+        </div>
+    </div>
+</body>
+</html>
